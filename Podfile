@@ -7,6 +7,8 @@ target 'Roome' do
 
   # Pods for Roome
 	pod ‘Firebase/Core’
+	pod ‘Firebase/Database’
+	pod ‘Firebase/Auth’
 
   target 'RoomeTests' do
     inherit! :search_paths
